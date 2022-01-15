@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.main-border{
+    border: 2px solid black;
+    width: 25rem;
+    height: 35rem;
+}
+.main-container{   
+    height: 34.5rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    gap: 10px;
+    text-align: center;
+}
+.hr{
+    border-bottom: 5px solid black;
+    margin-top: 100px;;
+}
+.item{
+    font-size: 25px;
+    color: white;
+}
+.cinza{
+    background-color: rgb(100, 100, 100);
+}
+green{
+    background-color: rgb(48, 223, 77);
+}
+.blue{
+    background-color: blue;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.operatorvezes{
+    grid-row-start: 1;
+}
+.operatorvezes1{
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+.operatormenos{
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+.operatoresult{
+    background-color: rgb(119, 255, 126);
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+
+}
